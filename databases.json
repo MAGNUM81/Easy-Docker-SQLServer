@@ -1,0 +1,14 @@
+{
+"databases":[
+	{
+		"name":"TestDB",
+		"ldfFileName":"TestDB_1.ldf",
+		"mdfFileName":"TestDB.mdf",
+	},
+	{
+		"name":"TestDB",
+		"ldfFileName":"TestDB_1.ldf",
+		"mdfFileName":"TestDB.mdf",
+	}
+]
+}
