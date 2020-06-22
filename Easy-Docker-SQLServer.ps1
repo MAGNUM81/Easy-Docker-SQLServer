@@ -44,4 +44,4 @@ Copy-Item "restore.sh" $outputDir
 #run docker commands to build the image
 $imageName = "dockerimage_$ContainerName"
 docker build -t $imageName ./$output/
-docker run -d -p 1433:$Port --name=$ContainerName $imageName
+docker run --rm -d -p 1433:$Port -v $dbfilesDir:/shared_files --name=$ContainerName $imageName
