@@ -1,14 +1,19 @@
 {
 "databases":[
 	{
-		"name":"TestDB",
-		"ldfFileName":"TestDB_1.ldf",
-		"mdfFileName":"TestDB.mdf",
+		"name":"les3PiliersBI",
+		"ldfFileName":"les3piliersBI_log.ldf",
+		"mdfFileName":"les3piliersBI.mdf"
 	},
 	{
-		"name":"TestDB",
-		"ldfFileName":"TestDB_1.ldf",
-		"mdfFileName":"TestDB.mdf",
+		"name":"les3Piliers",
+		"ldfFileName":"les3Piliers_1.ldf",
+		"mdfFileName":"les3piliers.mdf"
+	},
+	{
+		"name":"les3PiliersTest",
+		"ldfFileName":"les3piliersTest_1.ldf",
+		"mdfFileName":"les3piliersTest.mdf"
 	}
 ]
 }

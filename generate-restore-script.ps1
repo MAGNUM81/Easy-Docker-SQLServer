@@ -8,7 +8,7 @@ $databases = $jsonObject.databases
 $restoreScript = ""
 foreach ($db in $databases)
 {
-	$restoreScript += "create database $($db.name) on(Filename='/databasefiles/$($db.mdfFilename)' LOG on(Filename='/databasefiles/$($db.ldfFilename)' for attach;`n"
+	$restoreScript += "create database $($db.name) on(Filename='/databasefiles/$($db.mdfFilename))' LOG on(Filename='/databasefiles/$($db.ldfFilename))' for attach;`n"
 }
 
 return $restoreScript
