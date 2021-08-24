@@ -1,19 +1,19 @@
 {
 "databases":[
 	{
-		"name":"les3PiliersBI",
-		"ldfFileName":"les3piliersBI_log.ldf",
-		"mdfFileName":"les3piliersBI.mdf"
+		"name":"bleh",
+		"ldfFileName":"bleh.ldf",
+		"mdfFileName":"bleh.mdf"
 	},
 	{
-		"name":"les3Piliers",
-		"ldfFileName":"les3Piliers_1.ldf",
-		"mdfFileName":"les3piliers.mdf"
+		"name":"fizz",
+		"ldfFileName":"fizz.ldf",
+		"mdfFileName":"fizz.mdf"
 	},
 	{
-		"name":"les3PiliersTest",
-		"ldfFileName":"les3piliersTest_1.ldf",
-		"mdfFileName":"les3piliersTest.mdf"
+		"name":"buzz",
+		"ldfFileName":"buzz.ldf",
+		"mdfFileName":"buzz.mdf"
 	}
 ]
 }
